@@ -1,7 +1,11 @@
 # PooProject
 -----------------------------------
-Project made in Java;
-Class : POO;
+Project made in Java for POO
+-----------------------------------
+-----------------------------------
+App that lets you track your gym
+activity and create training plans.
+-----------------------------------
 -----------------------------------
 To compile it is necessary Gradle
 You can use the following commands:
