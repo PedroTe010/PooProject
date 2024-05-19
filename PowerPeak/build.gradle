@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+plugins {
+    id 'idea'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+
+
+// Define the sourceSets block to customize source directories
+sourceSets {
+    // Main source set
+    main {
+        // Set the source directory path
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+/*
+// Customize the build directory path
+buildDir = 'custom-build-dir'
+
+// Define your build task
+task customBuild(type: Jar) {
+    // Configure the task as needed
+    // For example, setting the main source directory
+    from sourceSets.main.output
+    // Set the output directory for the JAR file
+    destinationDir = file("$buildDir/libs")
+}*/
